@@ -1,0 +1,32 @@
+{
+  "name": "nextjs",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^1.19.26",
+    "@ckeditor/ckeditor5-build-classic": "^22.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "antd": "^4.6.2",
+    "axios": "^0.19.2",
+    "ckeditor4-react": "^1.2.0",
+    "clsx": "latest",
+    "moment": "^2.27.0",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^6.7.2",
+    "react-parallax": "^3.0.3",
+    "react-scroll-parallax": "^2.3.4",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
